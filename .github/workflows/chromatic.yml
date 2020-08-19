@@ -9,5 +9,5 @@ jobs:
       - run: yarn
       - uses: chromaui/action@v1
         with:
-          projectToken: project-token
-          token: ${{ secrets.CHROMATIC_TOKEN }}
+          projectToken: ze9vqp8t9r
+          token: ${{ secrets.GITHUB_TOKEN }}
